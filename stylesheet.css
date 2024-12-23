@@ -1,0 +1,18 @@
+body {
+background-color: white;
+color:black;
+}
+footer {
+    padding: 20px; /* Some padding */
+    text-align: center; /* Center text*/
+    background: white; /* black background */
+}
+flexbox {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border: 2px solid #333;
+}
+header {
+    visibility: hidden;
+}

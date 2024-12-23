@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+     <title> Meinungsumfragen </title>
+     <link rel="stylesheet" href="stylesheet.css">
+     <link rel="tabelleumfragen" href="tabelleumfrage.sql">
+    </head>
+<bod>
+       <h1><center>Ai-Bildgeneration</center></h1>
+ <header>
+        <div class="flexbox">
+            <div class="box-01">
+                <h2><center>Die folgenden Bilder sind von AI-Bild-Generator Stable Dissusion erstellt. <br>
+                    Bewerten sie ob sie die Bilder für von Menschen gemalt oder Ai-generiert halten. <br></center>
+                </h2>
+            </div>
+        </div>
+  </header>
+<section>
+    <h2>
+        <script src="buttons.js"></script>
+         <center>
+            <div id="header"></div>
+            <div id="header2"></div>
+         </center>
+    </h2>
+
+     <h2><center>
+            <input id="bewertung" type="range" min="0" max="10" step="1.0" value="0">
+        </center>
+     </h2>
+    <h2>  
+
+        <center> 
+                <button onclick="myFunction()">Abstimmen</button> 
+                <script src="bildwechsel.js">
+                </script>
+        </center>
+        <src ="tabellenumfrage.sql"></src>
+    </h2>
+
+</section>
+    <footer>
+     <div class="footer">
+     <p> 
+    Für weitere Fragen: <br>
+    Ben Kopp<br>
+    37115 Duderstadt <br>
+    Suthfeldring 24<br>
+    Festnetz: 05527 3396 <br>
+    Mobil: 49 152 26241571  
+    </p>
+    </div>
+    </footer>
+</bod>
+</html>
